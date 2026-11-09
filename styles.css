@@ -1,0 +1,127 @@
+html {-webkit-text-size-adjust: 100%; text-size-adjust: 100%;}
+body {background-color: #fdfdfd; color: #2c3c4c; margin: 0; font-size: 15px; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased;}
+h1 {margin-bottom: 32px; font-size: 2.4em;}
+h2 {margin-top: 48px; font-size: 1.6em;}
+h3 {margin-top: 32px; font-size: 1.3em;}
+h1, h2, h3 {color: #345;}
+* {font-weight: normal; font-family: Inter, system-ui, Roboto, 'Helvetica Neue', Helvetica, sans-serif;}
+strong, b {font-weight: 700;}
+.header {width: 100%; padding-top: 40px; padding-bottom: 0;}
+.header-content {max-width: 900px; padding-left: 16px; padding-right: 0; margin: 0 auto; border-bottom: #e0e0e0 1px solid; padding-bottom: 36px;}
+.header-title {text-align: left; margin-top: 0; margin-bottom: 12px; font-size: 36px; color: #345; font-family: Inter, system-ui, Roboto, 'Helvetica Neue', Helvetica, sans-serif; font-weight: 400; line-height: 1.2;}
+.name-first, .name-last {font-weight: inherit; font-family: inherit;}
+.header-name-zh {font-family: STKaiti, '华文楷书', KaiTi, '楷体', serif; font-weight: normal; font-size: 1.2em;}
+.header-body {display: flex; align-items: flex-start; gap: 32px;}
+.header-left {flex: 2; min-width: 0;}
+.header-right {flex: 1; display: flex; justify-content: center; padding-top: 0;}
+.header-photo {width: 220px; height: 220px; border-radius: 50%; display: block; object-fit: cover; object-position: center; flex-shrink: 0;}
+.header-icons {display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-top: 20px; font-size: 16px; line-height: 1.5;}
+.header-icons a {color: #2471a3; transition: color 0.2s;}
+.header-icons a:hover {color: #f09228;}
+.icon-sep {color: #bbb; font-size: 13px;}
+.internship-notice {display: flex; align-items: flex-start; gap: 12px; margin-top: 24px; padding: 16px 18px; border: 1px solid #bfe3f4; border-left: 4px solid #20a6d2; border-radius: 6px; background-color: #f1f9fe;}
+.internship-notice-dot {flex-shrink: 0; width: 9px; height: 9px; margin-top: 6px; border-radius: 50%; background-color: #20a6d2;}
+.internship-notice-title {margin: 0 0 6px; color: #08749a; font-size: 0.82em; font-weight: 700; line-height: 1.5; letter-spacing: 0.06em; text-transform: uppercase;}
+.internship-notice p {margin: 0; font-size: 0.95em; line-height: 1.65;}
+.internship-notice a {font-weight: 700; overflow-wrap: anywhere;}
+.content {max-width: 910px; padding-left: 16px; padding-right: 16px; margin: auto; margin-top: 48px;}
+a {color: #2471a3; text-decoration: none; transition: color 0.2s;}
+a:focus, a:hover {color: #f09228;}
+p {line-height: 1.5em;}
+ul {line-height: 1.8em;}
+.noselect {-webkit-touch-callout: none; -webkit-user-select: none; user-select: none;}
+.bold {font-weight: bold;}
+.italic {font-style: italic;}
+.row {display: flex; align-items: flex-start; box-sizing: border-box;}
+.row-media {flex-shrink: 0; width: 200px; height: 112px; background-position: center; background-size: contain; background-repeat: no-repeat;}
+.row-text {margin-left: 16px; line-height: 1.5em; min-width: 0;}
+.row-text span {line-height: inherit;}
+.interests {display: flex; flex-wrap: wrap; gap: 16px;}
+.interest {width: 268px; max-width: 100%;}
+.video-container {width: 100%; max-width: 268px; margin: auto; border-radius: 6px; overflow: hidden; background-color: #f0f0f0;}
+.interest-text {max-width: 268px; margin-top: 8px;}
+.publication {margin-bottom: 36px; padding: 8px; border-radius: 6px; transition: background-color 0.2s;}
+.publication:hover {background-color: #f5f7f9;}
+.publication-title {font-size: 1.05em;}
+.press {width: 100px; height: 80px; margin-right: 12px; background-size: cover;}
+.btn {font-size: 15px; padding: 0;}
+.btn-orange {color: #f09228;}
+.btn-orange:hover {color: #d07810;}
+.btn-red {color: #c0392b;}
+.btn-red:hover {color: #a02818;}
+.btn-purple {color: #8e44ad;}
+.btn-purple:hover {color: #6c3483;}
+.btn-dark {color: #555;}
+.btn-dark:hover {color: #333;}
+.header-links-row {white-space: nowrap;}
+.footer {border-top: #e0e0e0 1px solid; width: 100%; max-width: 910px; margin: auto; margin-top: 64px;}
+.footer-content {color: #999; font-size: 12px; padding: 12px 0; max-width: 910px; margin: auto;}
+.footer-content a {color: #999 !important; text-decoration: underline; transition: color 0.2s;}
+.footer-content a:hover {color: #666 !important;}
+.misc-toggle {cursor: pointer; display: inline-flex; align-items: center; gap: 8px; user-select: none;}
+.misc-toggle:hover {color: #2471a3;}
+.misc-arrow {font-size: 0.75em; color: #999; transition: color 0.2s;}
+.misc-content {max-height: 0; overflow: hidden; transition: max-height 0.45s ease, opacity 0.35s ease; opacity: 0;}
+.misc-content.open {max-height: 4200px; opacity: 1;}
+.misc-lede {margin: 0 0 14px; max-width: 52em; line-height: 1.6; color: #4a5a6a; font-size: 0.98em;}
+.misc-bridge {margin: 0 0 6px; max-width: 52em; line-height: 1.6; color: #4a5a6a; font-size: 0.98em;}
+.misc-picks-toggle {cursor: pointer; display: inline-flex; align-items: center; gap: 8px; user-select: none; margin: 10px 0 0; font-size: 1.05em; font-weight: 700; color: #345;}
+.misc-picks-toggle:hover {color: #2471a3;}
+.misc-picks-content {max-height: 0; overflow: hidden; transition: max-height 0.45s ease, opacity 0.3s ease; opacity: 0;}
+.misc-picks-content.open {max-height: 2800px; opacity: 1;}
+.misc-grid {display: grid; gap: 20px 28px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); padding: 12px 0 8px;}
+.misc-block {margin: 0; border-left: 3px solid #dde6ef; padding-left: 14px;}
+.misc-cat {margin: 0 0 8px; font-size: 0.95em; font-weight: 700; color: #456; letter-spacing: 0.02em;}
+.misc-item {margin: 0; line-height: 1.55; color: #3d4d5c;}
+.misc-list {margin: 0; padding-left: 1.15em; line-height: 1.55; color: #3d4d5c;}
+.misc-list li {margin: 0.2em 0;}
+.stars {font-size: 11px; display: inline-flex; align-items: center; gap: 4px; margin-left: 8px; color: #666; background-color: #f0f0f0; border: 1px solid #d0d7de; border-radius: 12px; padding: 1px 8px; vertical-align: middle; line-height: 1.5;}
+.gh-icon {width: 13px; height: 13px; flex-shrink: 0;}
+
+@media only screen and (max-width: 1350px) {
+    body {font-size: 18px;}
+    a.btn {font-size: 14px; padding: 2px 6px;}
+}
+
+@media only screen and (max-width: 910px) {
+    .header-body {flex-direction: column-reverse; align-items: center; gap: 24px;}
+    .header-right {width: 100%; max-width: 360px;}
+    .header-title {font-size: 1.8em;}
+    .internship-notice {margin-right: 16px;}
+}
+
+@media only screen and (max-width: 1000px) {
+    .publication {margin-bottom: 46px;}
+    .publication.row {flex-direction: column; align-items: center;}
+    .publication .row-media {width: 100%; max-width: 400px; height: 158px; margin-bottom: 12px;}
+    .publication .row-text {width: 100%; margin-left: 0;}
+    .interests {flex-direction: column; align-items: center; gap: 24px;}
+    .interest {width: 100%; max-width: 400px;}
+    .video-container {max-width: 400px;}
+    .interest-text {max-width: 400px;}
+}
+
+@media only screen and (max-width: 600px) {
+    .press {width: 80px; height: 64px; margin-right: 8px;}
+}
+
+
+@font-face {font-family: Inter; font-style: normal; font-weight: 400; font-display: swap; src: url('/fonts/inter-400.ttf') format('truetype');}
+@font-face {font-family: Inter; font-style: normal; font-weight: 700; font-display: swap; src: url('/fonts/inter-700.ttf') format('truetype');}
+/* Supplemental styles for Feng's CV sections; template typography is unchanged. */
+.skip {position: fixed; top: -100px; left: 16px; z-index: 200; padding: 8px 12px; background: #fdfdfd; border: 1px solid #2471a3;}
+.skip:focus {top: 8px;}
+a:focus-visible {outline: 2px solid #2471a3; outline-offset: 4px;}
+.sticky-nav:not(.visible) {visibility: hidden;}
+.sticky-nav.visible {visibility: visible;}
+.cv-row {display: flex; justify-content: space-between; align-items: baseline; gap: 24px; margin-bottom: 24px;}
+.cv-row > div {min-width: 0;}
+.cv-row h3 {margin: 0; font-size: 1em; font-weight: 700;}
+.cv-row p {margin: 8px 0 0;}
+.cv-date {white-space: nowrap; color: #666; font-size: .85em;}
+.cv-role {color: #2471a3;}
+.award {font-weight: 700; color: #f37100;}
+.honors li {margin-bottom: 8px;}
+#contact {scroll-margin-top: 64px;}
+@media only screen and (max-width: 600px) {.cv-row {flex-direction: column; gap: 8px;} .cv-date {order: -1;} }
+@media (prefers-reduced-motion: reduce) {*, *::before, *::after {transition: none !important; scroll-behavior: auto !important;}}
